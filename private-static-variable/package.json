@@ -1,0 +1,15 @@
+{
+  "name": "private-static-variable",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mrchnk/royale-compiler-problems",
+  "author": "mrchnk",
+  "license": "MIT",
+  "devDependencies": {
+    "@apache-royale/royale-js": "^0.9.4"
+  },
+  "scripts": {
+    "build": "asjsc -targets=JSNode -debug=true -source-path=src -output=out -library-path=node_modules/@apache-royale/royale-js/royale-asjs/frameworks/js/libs src/Main.as",
+    "start": "node out/bin/js-debug/index.js"
+  }
+}
