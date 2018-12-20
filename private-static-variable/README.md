@@ -35,9 +35,8 @@ pac.kage.SomeClass.pac_kage_SomeClass_x = new pac.kage.AnotherClass();
 How to run this example
 -----------------------
 
-Checkout repository, using your favorite node package manager run scripts in
-order: `install`, `run build`, `run start`. That will build ActionScript code 
-into JSNode application and run it.
+Checkout repository. Run scripts inorder: `npm install`, `npm run build`, `npm run start`.
+That will build ActionScript code into JSNode application and run it.
 
 ```
 private-static-variable> npm install
