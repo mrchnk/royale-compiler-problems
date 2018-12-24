@@ -44,8 +44,8 @@ src/Main.as
 The project 'Main' has been successfully compiled and optimized.
 
 dynamic-object-access> npm run start
+
   var /** @type {number} */ x = ;
                                 ^
-
 SyntaxError: Unexpected token ;
 ```
