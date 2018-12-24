@@ -1,6 +1,8 @@
 named-closure
 =============
 
+https://github.com/apache/royale-compiler/issues/68
+
 Named functions defined in method scope is not passed properly as arguments
 
 ```
