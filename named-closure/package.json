@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "asjsc -targets=JSNode -debug=true -source-path=src -output=out -library-path=node_modules/@apache-royale/royale-js/royale-asjs/frameworks/js/libs src/Main.as",
-    "build-nightly": "../apache-royale-js/royale-asjs/js/bin/asjsc -targets=JSNode -debug=true -source-path=src -output=out -library-path=node_modules/@apache-royale/royale-js/royale-asjs/frameworks/js/libs src/Main.as",
+    "build-nightly": "../apache-royale-js/royale-asjs/js/bin/asjsc -targets=JSNode -debug=true -source-path=src -output=out -library-path=../apache-royale-js/royale-asjs/frameworks/js/libs src/Main.as",
     "start": "node out/bin/js-debug/index.js"
   }
 }
