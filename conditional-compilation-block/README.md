@@ -1,6 +1,8 @@
 conditional-compilation-block
 =============================
 
+https://github.com/apache/royale-compiler/issues/72
+
 Compiler omits any class-scoped conditional compilation blocks
 
 ```
