@@ -53,7 +53,7 @@ MXMLJSC
 -debug=true
 -source-path=src
 -output=out
--library-path=node_modules/@apache-royale/royale-js/royale-asjs/frameworks/js/libs
+-library-path=${royalelib}/js/libs
 src/Main.as
 
 ...

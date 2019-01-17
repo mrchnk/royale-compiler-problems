@@ -1,15 +1,13 @@
 {
-  "name": "private-static-variable",
+  "name": "named-closure",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/mrchnk/royale-compiler-problems",
-  "author": "mrchnk",
   "license": "MIT",
   "devDependencies": {
     "@apache-royale/royale-js": "^0.9.4"
   },
   "scripts": {
-    "build": "asjsc -targets=JSNode -debug=true -source-path=src -output=out -library-path=${royalelib}/js/libs src/Main.as",
+    "build": "asjsc -targets=JSNode -debug=true -source-path=src -output=out -library-path=${royalelib}/js/libs -define+=CONFIG::DEBUG,true src/Main.as",
     "build-nightly": "../apache-royale-js/royale-asjs/js/bin/asjsc -targets=JSNode -debug=true -source-path=src -output=out -library-path=${royalelib}/js/libs src/Main.as",
     "start": "node out/bin/js-debug/index.js"
   }
