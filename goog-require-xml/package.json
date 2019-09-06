@@ -1,0 +1,15 @@
+{
+  "name": "goog-require-xml",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@apache-royale/royale-js": "^0.9.4"
+  },
+  "scripts": {
+    "build": "asjsc -targets=JSNode -debug=true -source-path=src -output=out -library-path=${royalelib}/js/libs src/Main.as",
+    "build-nightly": "../apache-royale-js/royale-asjs/js/bin/asjsc -targets=JSNode -debug=true -source-path=src -output=out -remove-circulars=false -library-path=${royalelib}/js/libs src/Main.as",
+    "build-release": "../apache-royale-js/royale-asjs/js/bin/asjsc -targets=JSNode -debug=false -source-path=src -output=out -remove-circulars=true -library-path=${royalelib}/js/libs src/Main.as",
+    "start": "node out/bin/js-debug/index.js"
+  }
+}
