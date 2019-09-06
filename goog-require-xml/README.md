@@ -1,6 +1,8 @@
 goog-require-xml
 ================
 
+https://github.com/apache/royale-compiler/issues/95
+
 Unneeded dependency on 'xml' in every JS file.
 If a project has a dependency on XML in any class, that dependency is appended to every JS files.
 option `-remove-circulars` should be set to `false` to reproduce that.
