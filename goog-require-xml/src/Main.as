@@ -8,7 +8,9 @@ package {
       new ClassWithDependency();
       new ClassWithoutDependency();
       var x: ExternalWithoutDependency = global['_DEFINED_ELSEWHERE_'];
-      x.doSomething();
+      if (x) {
+        x.doSomething();
+      }
     }
 
   }
