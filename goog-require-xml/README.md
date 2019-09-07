@@ -16,7 +16,7 @@ When `-remove-circulars` set to `true` dependencies on `XML` removed except wron
 In that case building with **closure compiler** for release will fail in most cases with messages:
 
 ```
-SEVERE: .../royale-compiler-problems/goog-require-xml/out/bin/js-debug/ExternalWithoutDependency.js:18: ERROR - Closure primitive methods (goog.provide, goog.require, goog.define, etc) must be called  at file scope.
+SEVERE: .../out/bin/js-debug/ExternalWithoutDependency.js:18: ERROR - Closure primitive methods (goog.provide, goog.require, goog.define, etc) must be called  at file scope.
 goog.require('XML');
 ^^^^^^^^^^^^^^^^^^^
 ```
