@@ -1,0 +1,16 @@
+{
+  "name": "static-initialization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "asjsc -targets=JSNode -source-path=src -output=out +configname=royale src/Main.as",
+    "start": "node out/bin/js-release/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@apache-royale/royale-js": "^0.9.7"
+  }
+}
