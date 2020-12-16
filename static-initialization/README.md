@@ -1,6 +1,8 @@
 static-initialization
 =====================
 
+That is the minimal project, reproducing [the issue](https://github.com/apache/royale-compiler/issues/169) on royale-compiler.
+
 Problems with lazy initialization code for static members referencing other classes.
 
 Simple ActionScript3 code
