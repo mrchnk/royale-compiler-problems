@@ -6,7 +6,7 @@ package {
     public function Main() {
       var target:Target = Enum.find(Target, 'JSNode');
       Assert.assertStrictlyEquals(target, Target.JSNode);
-      trace("OK");
+      console.log("OK");
     }
   }
 

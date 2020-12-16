@@ -8,7 +8,7 @@ package {
 
     public function Enum(name:String) {
       _name = name;
-      _registry.add((this as Object).constructor, name, this);
+      _registry.add((this as Object).constructor, this);
     }
 
     public function get name():String {
